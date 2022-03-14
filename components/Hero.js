@@ -1,4 +1,4 @@
-import React from "react";
+import userData from "../constants/data";
 import { motion } from "framer-motion";
 
 function Hero() {
@@ -52,7 +52,7 @@ function Hero() {
             I'm looking for a job currently, If you see me as a good fit, check
             my{" "}
             <a
-              href={{}}
+              href={userData.resumeUrl}
               target="__blank"
               className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
             >

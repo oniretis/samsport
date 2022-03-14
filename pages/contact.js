@@ -1,10 +1,14 @@
-import React from "react";
+import Head from "next/head";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 
 function contact() {
   return (
     <div>
+      <Head>
+        <title>Samuel's portfolio | contact page</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <div className="max-w-6xl mx-auto h-48 antialiased">
         <h1 className="text-gray-800 text-5xl md:text-9xl font-bold py-20 text-center md:text-left">

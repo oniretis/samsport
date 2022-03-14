@@ -1,4 +1,4 @@
-import React from "react";
+import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import userData from "../constants/data";
@@ -6,6 +6,10 @@ import userData from "../constants/data";
 function work() {
   return (
     <div>
+      <Head>
+        <title>Samuel's portfolio | projects page</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <section className="dark:bg-gray-800">
         <div className="max-w-6xl mx-auto h-48">

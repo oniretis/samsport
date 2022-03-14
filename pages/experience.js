@@ -1,4 +1,4 @@
-import React from "react";
+import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { motion } from "framer-motion";
@@ -6,6 +6,10 @@ import { motion } from "framer-motion";
 function experience() {
   return (
     <div>
+      <Head>
+        <title>Samuel's portfolio | experience page</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <div className="max-w-6xl mx-auto h-48 ">
         <h1 className="text-gray-900 text-5xl md:text-9xl font-bold py-20 text-center md:text-left dark:text-gray-100">
